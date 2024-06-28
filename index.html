@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <style>
@@ -60,9 +61,92 @@
         nav ul li a:hover{
             color:yellow;
         }
+        footer{
+            background-color:pink ;
+            padding:20px ;
+        }
+        .innerfooter{
+            margin:0;
+            padding:0;
+        }
+        .innerfooter ul{
+            padding:30px ;
+            display:flex ;
+            width:300px;
+            height:30px;
+            margin: auto;
+        }
+
+        .social{
+            display:inline-block;
+        }
+        .social a{
+            padding:20px ;
+            font-size:30px;
+            color:purple;
+        }
+        .social a:hover{
+            color: rgb(83, 241, 35);
+        }
+        .item ul{
+            padding:20px ;
+            width:300px;
+            height:30px ;
+            margin: auto;
+        }
+        .quick{
+            display: inline-block;
+        }
+        .quick a{
+            color: black;
+            list-style: none;
+            text-decoration: none;
+            font-size:20px ;
+            padding:20px ;
+
+        }
+        .quick a:hover{
+            color:blue;
+        }
+        .outerfooter p{
+            background-color:skyblue;
+            font-size:20px ;
+            color:white ;
+            text-align: center;
+            
+        }
+        table{
+            width:800px ;
+            margin: auto;
+            text-align: center;
+            table-layout: fixed;
+            margin-top:10px ;
+            font-family: Arial, Helvetica, sans-serif;
+            color: blue;
+            text-transform: uppercase;
+        }
+        th,td{
+            border:1px dotted blueviolet;
+            border-collapse: collapse ;
+            padding:20px;
+            font-size:20px ;
+        }
+        td{
+            background-color:wheat ;
+        }
+    tr:hover{
+        background-color:palevioletred;
+
+    }
+    
+        
+        
+        
+        
+
+        
     </style>
     <header>
-        
         <nav>
     <div class="sowndharya">sowndharya</div>
     <ul>
@@ -77,6 +161,54 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta molestiae est libero maiores, odit id dignissimos recusandae, tempore quod sunt beatae illum placeat. Maiores doloribus numquam, minima soluta distinctio nostrum vero quos accusantium error ratione recusandae molestias ea temporibus vitae delectus odio nobis labore possimus iusto excepturi. Perspiciatis recusandae nemo asperiores sed officia eos velit, explicabo officiis cupiditate modi laboriosam ullam cumque nesciunt harum, minima mollitia quas vero ut corporis. Debitis, accusantium. Soluta, amet veritatis natus maiores ratione inventore libero. Consectetur inventore obcaecati veritatis. Illo ex neque at quae eius. Eius ab ex rem esse dicta mollitia quibusdam sequi repellat, optio eos doloremque vel architecto commodi, officiis corrupti! Quidem voluptate quaerat debitis omnis neque praesentium, iste illo minus, dolorum consequuntur nostrum culpa voluptatibus mollitia molestiae veniam, impedit maxime quasi placeat adipisci eos quo! Perferendis aperiam, nihil nam itaque nulla id!</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt minus ex deleniti, aliquam eos provident excepturi itaque dolorem at eius recusandae quam tempore laudantium animi beatae cumque quasi adipisci ea nobis ab eum quibusdam laborum nisi. Fuga magni voluptates dolor laudantium reprehenderit odio, porro tempora! Blanditiis esse laudantium saepe reiciendis impedit! Veritatis at sint ipsa id ad incidunt dolores cupiditate. Voluptas, minus temporibus maxime, consequuntur asperiores numquam, ab dicta ullam quibusdam facilis tempora possimus excepturi! Suscipit, dolorum omnis molestias rerum quasi nisi iure autem obcaecati ipsum mollitia? Laborum perspiciatis ad minus, nemo, at quam sit quaerat rerum, quisquam ea aliquam! Esse sequi exercitationem explicabo illo animi provident, dolorem voluptates accusamus. Iure inventore tempora, suscipit, reiciendis recusandae, et maiores mollitia quae deleniti veniam impedit consequuntur aperiam quos odio nulla repellendus accusamus quod dolores! Corporis nam omnis maxime nisi mollitia molestiae aut?</p>
     </div>
+    <table>
+        <tr>
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Phone number</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>anisha</td>
+            <td>904514326</td>
+         </tr>
+         <tr>
+            <td>2</td>
+            <td>pavi</td>
+            <td>98904532</td>
+         </tr>
+         <tr>
+            <td>3</td>
+            <td>dharani</td>
+            <td>945678321</td>
+         </tr>
+
+    </table>
+</script>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="innerfooter">
+            <ul>
+                <li class="social"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="social"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="social"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+              </ul>
+        </div>
+        <div class="item">
+            <ul>
+                <li class="quick"><a href="">web</a></li>
+                <li class="quick"><a href="">Html</a></li>
+                <li class="quick"><a href="">Css</a></li>
+            </ul>
+
+
+        </div>
+        <div class="outerfooter">
+            <p>copyright &vcopy:2024 All right reserved</p>
+        </div>
+        </footer>
 
     
 </body>
